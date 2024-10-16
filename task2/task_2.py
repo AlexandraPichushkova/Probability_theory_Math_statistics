@@ -11,16 +11,10 @@ TASK1_3 = False
 TASK1_4 = False
 TASK2 = False
 
-R1 = 11
-G1 = 10
-B1 = 11
-R2 = 10
-G2 = 9
-B2 = 10
-R3 = 9
-G3 = 11
-B3 = 5
-
+# Константы для задач
+R1, G1, B1 = 11, 10, 11
+R2, G2, B2 = 10, 9, 10
+R3, G3, B3 = 9, 11, 5
 
 def save_plot(name='', fmt='png'):
     pwd = os.getcwd()
